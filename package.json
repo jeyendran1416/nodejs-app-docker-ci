@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-app-docker-ci",
+  "version": "1.0.0",
+  "description": "add. node js app into Docker and enable the CI in Jenkins",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "author": "Jeyendran Kathirvel",
+  "license": "ISC"
+}
